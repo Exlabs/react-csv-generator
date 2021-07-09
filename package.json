@@ -1,0 +1,55 @@
+{
+  "name": "@exlabs/react-csv-generator",
+  "version": "1.0.2",
+  "description": "The React CSV generator",
+  "author": "exlabs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Exlabs/react-csv-generator#readme"
+  },
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "dependencies": {
+    "array-flatten": "^3.0.0",
+    "axios": "^0.21.1",
+    "classnames": "^2.3.1",
+    "dateformat": "^4.5.1",
+    "file-saver": "^2.0.5"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0 < 2",
+    "react-dom": ">= 16.8.0 < 2"
+  },
+  "devDependencies": {
+    "@types/dateformat": "^3.0.1",
+    "@types/file-saver": "^2.0.2",
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "typescript": "^2.8.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "csv generator",
+    "js csv generator",
+    "react csv generator",
+    "javascript csv generator"
+  ],
+  "homepage": "https://github.com/Exlabs/react-csv-generator#readme"
+}

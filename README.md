@@ -23,13 +23,13 @@
 ## Installation
 
 ```sh
-npm install react-csv-generator
+npm install @exlabs/react-csv-generator
 ```
 
 or
 
 ```sh
-yarn add react-csv-generator
+yarn add @exlabs/react-csv-generator
 ```
 
 ## Available Props

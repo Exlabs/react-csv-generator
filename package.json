@@ -1,13 +1,10 @@
 {
   "name": "@exlabs/react-csv-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The React CSV generator",
   "author": "exlabs",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Exlabs/react-csv-generator#readme"
-  },
+  "repository": "@exlabs/react-csv-generator",
   "main": "dist/index.js",
   "engines": {
     "node": ">=8",
